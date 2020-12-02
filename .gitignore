@@ -130,3 +130,5 @@ dmypy.json
 
 # Own
 apiskeys.md
+api.py
+GetUser.md
