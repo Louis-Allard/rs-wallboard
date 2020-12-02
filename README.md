@@ -1,15 +1,15 @@
-#rs-wallboard
+**rs-wallboard**
 02/12/2020
 
 Follow yours social networks
 
-##Goal
+**Goal**
 Follow your digital life throught your social networks
 
-##Language
+**Language**
 Python3
 
-##Indicators
+**Indicators**
 
 Twitter => Followers - Following - Posts counting
 Instagramm => Followers - Following - Posts counting
