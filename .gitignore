@@ -129,5 +129,4 @@ dmypy.json
 .pyre/
 
 # Own
-misc/
-apis/api.py
+api.py
