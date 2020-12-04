@@ -129,8 +129,5 @@ dmypy.json
 .pyre/
 
 # Own
-api.py
 misc/
-apiskeys.md
-GetUser.md
-GetUser_i.md
+apis/
