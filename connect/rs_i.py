@@ -5,12 +5,7 @@ from bs4 import BeautifulSoup
 url="https://www.instagram.com/l.allard/"
 
 response =  requests.get(url)
-soup = BeautifulSoup(response.text, 'lxml')
-script = soup.findAll('span')
+soup = BeautifulSoup(response, 'lxml').text
+script = soup.findAll('script')[3]
 
 print(script)
-
-
-
-
-
