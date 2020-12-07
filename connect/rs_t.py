@@ -1,5 +1,5 @@
 import twitter
-from api import t_key, t_secret, t_bearer, t_token, t_tokensecret
+from apis.api import t_key, t_secret, t_bearer, t_token, t_tokensecret
 
 #twitter
 
