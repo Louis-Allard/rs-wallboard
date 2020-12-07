@@ -1,5 +1,5 @@
 from tkinter import *
-from rs_t import fo_user, fr_user
+from connect.rs_t import fo_user, fr_user
 
 
 win = Tk()
