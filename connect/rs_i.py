@@ -16,3 +16,5 @@ jsondata = json.loads(clean)
 biography = jsondata["entry_data"]["ProfilePage"][0]["graphql"]["user"]
 followed_by = biography["edge_followed_by"]["count"]
 follow =  biography["edge_follow"]["count"]
+
+print(clean)
