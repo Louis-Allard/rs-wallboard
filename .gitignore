@@ -130,4 +130,4 @@ dmypy.json
 
 # Own
 misc/
-apis/
+apis/api.py
