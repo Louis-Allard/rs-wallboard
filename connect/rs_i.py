@@ -13,8 +13,13 @@ script = re.sub("<.*?>", "", str(raw_script))
 clean = script.replace(";", "").replace("window._sharedData = ", "")
 
 jsondata = json.loads(clean)
-biography = jsondata["entry_data"]["ProfilePage"][0]["graphql"]["user"]
-followed_by = biography["edge_followed_by"]["count"]
-follow =  biography["edge_follow"]["count"]
 
-print(clean)
+if ("ProfilePage" in clean):
+    print('ok')
+    biography = jsondata["entry_data"]["ProfilePage"][0]["graphql"]["user"]
+    followed_by = biography["edge_followed_by"]["count"]
+    follow =  biography["edge_follow"]["count"]
+else:
+    print('none')  
+    followed_by = '-'
+    follow = '-'  
