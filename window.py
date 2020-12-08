@@ -33,7 +33,7 @@ i_data2  = Label(frame2, text=follow, fg='black', bg='white', font=("arial itali
 
 btn      = Button(frame5, text='Quitter', command=win.destroy).pack()
 
-frame.pack(expand='YES')
-frame2.pack(expand='YES')
+frame.pack(expand='YES', side=LEFT)
+frame2.pack(expand='YES', side=LEFT)
 frame5.pack(expand='YEs')
 win.mainloop()
