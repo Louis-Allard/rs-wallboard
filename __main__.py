@@ -1,6 +1,6 @@
 from tkinter import *
-from connect.rs_t import fo_user, fr_user
-from connect.rs_i import follow, followed_by
+from .connect.rs_t import fo_user, fr_user
+from .connect.rs_i import follow, followed_by
 
 
 win = Tk()
@@ -14,8 +14,8 @@ frame2   = Frame(win, bg='white')
 frame3   = Frame(win, bg='white')
 frame4   = Frame(win, bg='white')
 
-t_logo   = PhotoImage(file="./assets/twitter-logo.png")
-i_logo   = PhotoImage(file="./assets/instagram.png")
+t_logo   = PhotoImage(file="rs-wallboard/assets/twitter-logo.png")
+i_logo   = PhotoImage(file="rs-wallboard/assets/instagram.png")
 
 t_pic    = Label(frame, image=t_logo, bg='white').pack()
 t_label1 = Label(frame, text="Nombre de followers:", bg='white', fg='black',  font=("arial italic", 18)).pack()
