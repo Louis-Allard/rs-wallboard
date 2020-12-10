@@ -14,7 +14,7 @@ clean = script.replace(";", "").replace("window._sharedData = ", "")
 
 jsondata = json.loads(clean)
 
-if ("ProfilePage" in clean):
+if ("entry_data" in clean):
     print('ok')
     biography = jsondata["entry_data"]["ProfilePage"][0]["graphql"]["user"]
     followed_by = biography["edge_followed_by"]["count"]
