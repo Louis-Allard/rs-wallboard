@@ -131,3 +131,5 @@ dmypy.json
 # Own
 misc/
 apis/api.py
+apis/__init__.py
+connect/__init__.py
