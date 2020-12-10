@@ -44,10 +44,10 @@ l_label2 = Label(frame3, text="Nombre de vues:", bg=bgcolor, fg='black', font=("
 l_data2  = Label(frame3, text=follow, fg='black', bg=bgcolor, font=("arial italic", 16)).pack()
 
 #Facebook
-f_pic    = Label(frame4, image=t_logo, bg='white').pack()
-f_label1 = Label(frame4, text="Nombre de followers:", bg='white', fg='black',  font=("arial italic", 18)).pack()
+f_pic    = Label(frame4, image=f_logo, bg='white').pack()
+f_label1 = Label(frame4, text="Nombre d'amis:", bg='white', fg='black',  font=("arial italic", 18)).pack()
 f_data1  = Label(frame4, text=fo_user, fg='black', bg='white', font=("arial italic", 16)).pack()
-f_label2 = Label(frame4, text="Nombre de follow:", bg='white', fg='black', font=("arial italic", 18)).pack()
+f_label2 = Label(frame4, text="Nombre de posts:", bg='white', fg='black', font=("arial italic", 18)).pack()
 f_data2  = Label(frame4, text=fr_user, fg='black', bg='white', font=("arial italic", 16)).pack()
 
 
