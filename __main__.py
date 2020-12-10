@@ -34,6 +34,11 @@ i_label2 = Label(frame2, text="Nombre de follow:", bg='white', fg='black', font=
 i_data2  = Label(frame2, text=follow, fg='black', bg='white', font=("arial italic", 16)).pack()
 
 #Linkedin
+l_pic    = Label(frame2, image=i_logo, bg='white').pack()
+l_label1 = Label(frame2, text="Nombre de followers:", bg='white', fg='black',  font=("arial italic", 18)).pack()
+l_data1  = Label(frame2, text=followed_by, fg='black', bg='white', font=("arial italic", 16)).pack()
+l_label2 = Label(frame2, text="Nombre de follow:", bg='white', fg='black', font=("arial italic", 18)).pack()
+l_data2  = Label(frame2, text=follow, fg='black', bg='white', font=("arial italic", 16)).pack()
 
 #Facebook
 

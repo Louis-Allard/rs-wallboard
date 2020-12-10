@@ -20,6 +20,6 @@ if ("entry_data" in clean):
     followed_by = biography["edge_followed_by"]["count"]
     follow =  biography["edge_follow"]["count"]
 else:
-    print('none')  
+    print('Connexion error on instagram api')  
     followed_by = '-'
     follow = '-'  
